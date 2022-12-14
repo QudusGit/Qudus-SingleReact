@@ -1,0 +1,159 @@
+.Price{
+    padding: 200px 290px 200px 290px;
+    box-sizing: border-box;
+    font-style: normal;
+    text-decoration: none;
+    overflow-x: hidden;
+    background-color: hsl(204, 43%, 93%);
+}
+
+
+/* F I R S T */
+
+
+
+.First{
+    display: block;
+    padding: 10px 46px 10px 46px;
+    background-color: white;
+}
+
+.First h2{
+    color: hsl(179, 62%, 43%);
+}
+
+.First h3{
+    color: hsl(71, 73%, 54%);
+}
+
+.First p{
+    color: hsl(204, 43%, 75%);
+}
+
+
+/* M A I N   B O D Y */
+
+
+
+.Main-Body{
+    display: flex;
+}
+
+
+/* T H I R D */
+
+
+
+.third{
+    color: hsl(204, 43%, 93%);
+    width: 50%;
+    padding: 10px 46px 10px 46px;
+    background-color:hsl(179, 62%, 43%);
+}
+
+.third b{
+    font-size: 29px;
+}
+
+.third a{
+    text-decoration: none;
+    color: hsl(204, 43%, 83%);
+}
+
+.third p{
+    font-size: 14px;
+    color: hsl(204, 43%, 87%);
+}
+
+.button{
+    padding: 13px 80px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: hsl(71, 73%, 54%);
+    border: hsl(71, 73%, 54%);
+}
+
+.button:hover{
+    cursor: pointer;
+    transition: 1.5s;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.7)
+}
+
+
+/* F O R T H  */
+
+
+
+.forth{
+    color: hsl(204, 43%, 93%);
+    width: 50%;
+    padding: 10px 46px 10px 46px;
+    background-color: hsl(179, 62%, 53%);
+}
+
+.forth p{
+    color: hsl(204, 43%, 83%);
+}
+
+
+/* M E D I A   Q U E R Y */
+
+
+
+@media only screen and (max-width: 700px){
+    .Price{
+        padding: 100px 43px 100px 43px;
+    }
+
+    /* F I R S T */
+
+
+    .First{
+        border-radius: 10px 10px 0 0;
+        line-height: 32px;
+        padding: 20px 10px 25px 25px;
+    }
+
+    .Main-Body{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* T H I R D */
+    
+    
+    .third{
+        width: 70%;
+        padding: 10px 82px 25px 25px;
+    }
+    
+    .third b{
+        font-size: 29px;
+    }
+    
+    
+    .third p{
+        font-size: 14px;
+    }
+    
+    .button{
+        width: 120%;
+        font-size: 20px;
+        margin: 20px 0 10px 0 ;
+        padding: 17px 20px 17px 20px;
+        border-radius: 7px;
+    }
+
+    /* F O R T H  */
+    
+    
+    .forth{
+        width: 70%;
+        padding: 10px 82px 25px 25px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .forth p{
+        line-height: 28px;
+    }
+}
